@@ -30,14 +30,46 @@
             margin-top: 20px;
         }
         table{
-            background-color: rgb(44, 50, 66);
+            background-color: rgba(66, 58, 58, 0.76);
+        }
+        #menu{
+            background-color: rgba(0, 0, 0, 0);
+        }
+        ul {
+            margin: 0;
+            padding:0;
+        }
+        li { 
+            margin: 5px;
+            display: inline;
+            
+        }
+        li a {
+            padding: 5px 10px; 
+            margin:0;
+            background: #903;
+            text-decoration: none;
+            color:rgb(240, 229, 229);
+            -webkit-border-radius:5px;
+            -moz-border-radius:5px;
+            border-radius:5px;
         }
     </style>
 </head>
 
 <body>
     <div>
-        <img src="./img/logo.png" id="logo"/>
+        <table id="menu">
+            <td>
+                <img src="./img/logo.png" id="logo"/>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="page2.html">Elenco</a></li>
+                    <li><a href="#">link 2</a></li>
+                </ul>
+            </td>
+        </table>
     </div>
 
     <h1>Homem-Aranha</h1>
